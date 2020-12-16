@@ -101,7 +101,7 @@ public class NowplayingHandler
     
     public void updateTopic(long guildId, AudioHandler handler, boolean wait)
     {
-        Guild guild = bot.getJDA().getGuildById(guildId);
+       /* Guild guild = bot.getJDA().getGuildById(guildId);
         if(guild==null)
             return;
         Settings settings = bot.getSettingsManager().getSettings(guildId);
@@ -130,6 +130,8 @@ public class NowplayingHandler
                 catch(PermissionException | RateLimitedException ignore) {}
             }
         }
+        */
+        return;
     }
     
     // "event"-based methods
